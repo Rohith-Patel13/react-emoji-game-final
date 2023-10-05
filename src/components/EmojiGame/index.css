@@ -1,0 +1,35 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.bg {
+  border: 1px solid gray;
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+/*
+You can use the CSS opacity property to set the degree to which 
+content behind an element is hidden. It accepts a value in the 
+range of 0.0 to 1.0 inclusive
+
+opacity: 0.5;
+*/
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.ulContainer {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+/* Write your code here. */
+.liContainer {
+  background-color: #ffffff30;
+  border: 2px solid #ffffff30;
+  border-radius: 1rem;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.emojiImage {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.btnEmojiEl {
+  background-color: transparent;
+  border: 0px solid transparent;
+}

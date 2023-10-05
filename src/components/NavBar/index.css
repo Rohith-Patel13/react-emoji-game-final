@@ -1,0 +1,35 @@
+/* Write your code here. */
+.navContainer {
+  background-color: #ffffff30;
+  min-height: 50px;
+  box-shadow: 0.2px 0.2px 0.2px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.emojiLogoContainer {
+  display: flex;
+  align-items: center;
+}
+.emojiPara {
+  color: white;
+  font-weight: bold;
+}
+.emojiLogoImage {
+  height: 30px;
+  width: 30px;
+  margin-right: 3px;
+}
+.scoreContainer {
+  display: flex;
+}
+.scorePara {
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.displayScoreDetails {
+  display: none;
+}
